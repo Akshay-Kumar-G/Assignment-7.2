@@ -1,0 +1,38 @@
+<!DOCUMENTTYPE HTML>
+	<html>
+<head>
+<title>Assignment7.2</title>
+</head>
+
+
+<h1> This is Assignment 7.2</h1>
+<h2> <b>Assignment:</b></h2>  Write a helper Note by creating a form with field as name, age, city. Use a closure
+concept which on by click to text field it should display the helpful note for as follows:<br>
+ name as “Please input the username”<br>
+ Age as “Please input the age”<br>
+ City as “Please input the city”<br>
+
+	
+	<script language="JavaScript">
+  // Global variable
+  var Name="";
+  var Age="";
+  var City="";
+  /* Form */
+  function count(){
+
+     Name=prompt("Please input the username");
+     Age=prompt("Please input the age");
+     City=prompt("Please input the city");
+    
+    document.write("Name : "+Name);
+    document.write("<br>Age : "+Age);
+    document.write("<br>City : "+City);
+  }
+  </script>
+  <p> Fill the Form </p>
+    <input type="button" value="Fill The Form" onClick='count();'>  
+  
+</script>
+</body>
+</html>
